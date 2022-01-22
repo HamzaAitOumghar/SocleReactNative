@@ -1,10 +1,5 @@
-import {
-  createDrawerNavigator,
-  DrawerContentScrollView,
-  DrawerItemList,
-} from "@react-navigation/drawer";
+import { createDrawerNavigator } from "@react-navigation/drawer";
 import React from "react";
-import { Image, Text, View } from "react-native";
 import COLORS from "../const/colors";
 import HomeScreen from "../screens/HomeScreen";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
@@ -52,7 +47,7 @@ const DrawerNavigator = () => {
           ),
         }}
       >
-        {({ props }) => (
+        {(props) => (
           <DrawerScreenContainer>
             <HomeScreen {...props} />
           </DrawerScreenContainer>
@@ -72,7 +67,7 @@ const DrawerNavigator = () => {
           ),
         }}
       >
-        {({ props }) => (
+        {(props) => (
           <DrawerScreenContainer>
             <HomeScreen {...props} />
           </DrawerScreenContainer>
@@ -93,7 +88,7 @@ const DrawerNavigator = () => {
           ),
         }}
       >
-        {({ props }) => (
+        {(props) => (
           <DrawerScreenContainer>
             <HomeScreen {...props} />
           </DrawerScreenContainer>
@@ -113,7 +108,7 @@ const DrawerNavigator = () => {
           ),
         }}
       >
-        {({ props }) => (
+        {(props) => (
           <DrawerScreenContainer>
             <HomeScreen {...props} />
           </DrawerScreenContainer>
@@ -134,7 +129,7 @@ const DrawerNavigator = () => {
           ),
         }}
       >
-        {({ props }) => (
+        {(props) => (
           <DrawerScreenContainer>
             <HomeScreen {...props} />
           </DrawerScreenContainer>
